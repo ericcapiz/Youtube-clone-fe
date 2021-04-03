@@ -1,0 +1,96 @@
+.navBarContainer{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftNav{
+    flex: 33%;
+    display: flex;
+    /* justify-content: left; */
+    align-items: center;
+}
+
+.leftNav  h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    color:black;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+
+#icon{
+    font-size: 1.8rem;
+    
+}
+
+#sidebarToggle{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+.centerNav{
+    flex: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar{
+    width: 80%;
+    height:1.65rem;
+    outline-color: cornflowerblue;
+}
+
+.searchBarBtn{
+    width: 15%;
+    color: rgb(158, 148, 148);
+    height: 1.92rem;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    border-left: none;
+}
+.searchBarBtn:hover{
+    color: black;
+    outline-color: rgb(158, 148, 148);
+}
+
+
+.rightNav{
+    flex: 33%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.navIcon{
+    color: rgb(68, 64, 64);
+    border: none;
+    background-color: transparent;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.navIcon:hover{
+    color: black;
+}
+
+.profilePic{
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    background-color: tomato;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
